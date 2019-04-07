@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "campaign": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "touchpoints": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "Predicted Goal": {
+      "type": "object",
+      "properties": {
+        "Top": {
+          "type": "integer"
+        },
+        "Ideal": {
+          "type": "integer"
+        },
+        "Low": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Top",
+        "Ideal",
+        "Low"
+      ]
+    },
+    "Campaign Totals": {
+      "type": "object",
+      "properties": {
+        "Actual Goal": {
+          "type": "string"
+        },
+        "Conversion Rate": {
+          "type": "number"
+        },
+        "Starting Budget": {
+          "type": "number"
+        },
+        "Cost": {
+          "type": "number"
+        },
+        "Improvements Cost": {
+          "type": "integer"
+        },
+        "Success Fee": {
+          "type": "number"
+        },
+        "Budget Rollover": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "Actual Goal",
+        "Conversion Rate",
+        "Starting Budget",
+        "Cost",
+        "Improvements Cost",
+        "Success Fee",
+        "Budget Rollover"
+      ]
+    }
+  },
+  "required": [
+    "campaign",
+    "industry",
+    "target",
+    "touchpoints",
+    "Predicted Goal",
+    "Campaign Totals"
+  ]
+}

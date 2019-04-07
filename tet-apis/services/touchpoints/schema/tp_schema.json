@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "touchpoint": {
+      "type": "string"
+    },
+    "conversion_rate": {
+      "type": "number"
+    },
+    "campaign_cost": {
+      "type": "integer"
+    },
+    "sellers cost": {
+      "type": "number"
+    },
+    "sellers_cost_updates": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "touchpoint",
+    "conversion_rate",
+    "campaign_cost",
+    "sellers cost",
+    "sellers_cost_updates"
+  ]
+}
