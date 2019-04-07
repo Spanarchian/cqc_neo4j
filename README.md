@@ -1,10 +1,4 @@
-# cqc_neo4j
-
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-# Project Title
+# Project cqc_neo4j
 
 One Paragraph of project description goes here
 
@@ -63,10 +57,10 @@ Give an example
 Add additional notes about how to deploy this on a live system
 
 ## Built With
+* [Python 3.7.2](https://www.python.org/)- Primary Programming Language
+* [Flask 1.0.2](https://pypi.org/project/Flask/1.0.2/) - The web framework used
+* [pip 19.0.3](https://pip.pypa.io/en/stable/) - Python Package Management
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
